@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>网易云音乐</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/layout.css">
+</head>
+
+<body>
+	<div id="logic-box" class="logic-box">
+		<div id="logic-block"></div>
+		<div id="logic-value" class="logic-value">
+			<div class="up-border"></div>
+			<div class="box">
+				<div class="title">
+					<span>登录</span>
+					<a href="#" id="close-logic">×</a>					
+				</div>
+				<input class="input-id" type="text" name="id" placeholder="请输入手机号">
+				<input class="input-password" type="text" name="password" placeholder="请输入密码">
+				<a href="#" id="top-logic-btn" class="f-btn"><span class="l">登录</span><span class="r"></span></a>
+				<a href="#" class="new" id="new-peo">注册</a>
+			</div>				
+			<div class="down-border"></div>
+		</div>
+	</div>
+	<div id="g_top">
+		<div class="top-bar">
+			<div class="top-bar-width">
+				<div class="logo fl">
+					<a href="#"><img src="image/index/topbar.png" alt="topbar"></a>
+				</div>
+				<div class="navigation-bar fl">
+					<ul>
+						<li><a href="#">发现音乐</a></li>
+						<li><a href="#">我的音乐</a></li>
+						<li><a href="#">朋友</a></li>
+						<li><a href="#">音乐人</a></li>
+						<li><a href="#" class="hot">下载客户端</a></li>
+					</ul>
+				</div>
+				<div class="top-logic fr">
+					<a id="logic-btn" href="#">登录</a>
+					<img src="image/index/logic_down.png" alt="logic_down">
+
+				</div>
+				<div class="search-box fr">
+					<input type="text" name="search" value="单曲/歌手/专辑/歌单/MV/用户" onfocus="javascript:if(this.value=='单曲/歌手/专辑/歌单/MV/用户')this.value='';" onblur="javascript:if(this.value=='')this.value='单曲/歌手/专辑/歌单/MV/用户';">
+				</div>
+			</div>
+		</div>
+		<div class="second-bar">
+			<div class="top-bar-width">
+				<ul class="second-menu">
+					<li><a href="#">推荐</a></li>
+					<li><a href="#">排行榜</a></li>
+					<li><a href="#">歌单</a></li>
+					<li><a href="#">主播电台</a></li>
+					<li><a href="#">歌手</a></li>
+					<li><a href="#">新碟上架</a></li>
+					<div class="floatclear"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="comWidth">
+			<div id="pic-and-down" class="pic-and-down">
+				<a href="#" class="last_pic_btn"></a>
+				<a href="#" class="next_pic_btn"></a>
+				<div class="pic-and-down-width">
+					
+					<div id="lunbotu_pic" class="lunbotu_pic fl">
+						
+					</div>
+					<div class="software_down fl">
+						<a href="#"><img src="image/index/software_down_btn.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="main-value">
+		<div class="main-content">
+			<div class="main-content-left fl">
+					<!-- 热门推荐 -->
+					<div class="popular">
+						<div class="main-value-title">
+							<img src="image/index/main_value_title_logo.png" alt="main_value_title_logo">
+							<a href="#" class="small-title"><img src="image/index/popular_title.png" alt="popular_title"></a>
+							<a href="#">华语</a>
+							<span class="line">|</span>
+							<a href="#">流行</a>
+							<span class="line">|</span>
+							<a href="#">摇滚</a>
+							<span class="line">|</span>
+							<a href="#">民谣</a>
+							<span class="line">|</span>
+							<a href="#">电子</a>
+							<img src="image/index/popular_more.png" class="main-value-title-more fr" alt="popular_more">
+							<a href="#" class="fr">更多</a>
+						</div>
+						<div class="popular-value" id="popular-value">
+							<ul>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="popular_musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="popular_btn_left">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/1376588573302622.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="001">♡甜蜜女嗓•调和恋爱的三十种秘方♡</a></p>
+								</li>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="musiz_cover">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/1394180760666071.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="002">滚石杂志评选出2016年最佳专辑Top 50</a></p>
+								</li>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="musiz_cover">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/3265549598624222.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="003">百段爱的佳话•百首不朽恋曲</a></p>
+								</li>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="musiz_cover">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/3265549619599780.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="004"> 《神奇动物在哪里》神奇动物Go！</a></p>
+								</li>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="musiz_cover">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/3400789465289028.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="005">B榜官网排出的史上最佳专辑封面前50</a></p>
+								</li>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="musiz_cover">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/3413983621914654.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="006">春光乍泄</a></p>
+								</li>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="musiz_cover">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/18547661650393518.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="007">「魔性BGM」抛开烦恼 逗比模式强势开启</a></p>
+								</li>
+								<li>
+									<div class="popular-music-img">
+										<img src="image/index/popular_musiz_cover.png" class="popular-music-cover" alt="musiz_cover">
+										<div class="popular-music-btn">
+											<img src="image/index/popular_btn_left.png" class="popular-music-btn-left" alt="musiz_cover">
+											<a href="#" class="popular-music-btn-right"></a>
+										</div>
+										<a href="#"><img src="image/index/hot/18600438208507208.jpg" alt="musiz_cover"></a>
+									</div>
+									<p><a href="#" class="popular-value-text" name="008">愿我们一起相伴到老</a></p>
+								</li>
+							</ul>
+							<div class="popular-ad">
+								<a href="#"><img src="image/index/ad/ad1.jpg" alt="musiz_cover"></a>
+							</div>
+						</div>
+					</div>
+					<!-- 新碟上架 -->
+					<div class="new-cd">
+						<div class="main-value-title">
+							<img src="image/index/main_value_title_logo.png" alt="main_value_title_logo">
+							<a href="#" class="small-title"><img src="image/index/new_cd_title.png" alt="new_cd_title"></a>
+							<img src="image/index/popular_more.png" class="main-value-title-more fr" alt="popular_more">
+							<a href="#" class="fr">更多</a>
+						</div>
+						<div id="new-cd-list" class = "new-cd-list">
+							<a href="#" id="new-music-list-last" class="new-music-list-last fl"><img src="image/index/new_music/banner/last.png"></a>
+							<div class="new_music_box">
+								<ul>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="image/index/new_music/0.jpg">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="image/index/new_music/1.jpg">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="image/index/new_music/2.jpg">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="image/index/new_music/3.jpg">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="image/index/new_music/4.jpg">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="#">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="#">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="#">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="#">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+									<li>
+										<a href="#" class="new_music_cover">
+											<img src="#">
+											<img src="image/index/new_music/banner/coverall2.png">
+										</a>
+										<div class="new_music_descri">
+											<a href="#" class="music_name"></a>
+											<a href="#" class="songer"></a>
+										</div>
+									</li>
+
+								</ul>
+							</div>
+							<a href="#" id="new-music-list-next" class="new-music-list-next fr"><img src="image/index/new_music/banner/next.png"></a>
+						</div>
+					</div>
+					<!-- 热门排行 -->
+					<div class="rank">
+						<div class="main-value-title">
+							<img src="image/index/main_value_title_logo.png" alt="main_value_title_logo">
+							<a href="#" class="small-title"><img src="image/index/rank_title.png" alt="rank_title"></a>
+							<img src="image/index/popular_more.png" class="main-value-title-more fr" alt="popular_more">
+							<a href="#" class="fr">更多</a>
+						</div>
+						<div id="index_rank_table" class="rank_table">
+							<dl id="up_rank" class="up_rank fl">
+								<dt>
+									<img src="image/index/rank/up_rank.png" class="rank_title_pic fl">
+									<span class="rank_title_text">云音乐飙升榜</span>
+									<div>
+										<a href="#" class="rank_title_play"></a>
+										<a href="#" class="rank_title_file"></a>
+									</div>
+								</dt>
+							</dl>
+							<dl id="new_rank" class="new_rank fl">
+								<dt>
+									<img src="image/index/rank/new_rank.png" class="rank_title_pic fl"><span class="rank_title_text">云音乐新歌榜</span>
+									<div>
+									<a href="#" class="rank_title_play"></a>
+									<a href="#" class="rank_title_file"></a>										
+									</div>
+								</dt>
+							</dl>
+							<dl id="make_rank" class="make_rank fl">
+								<dt>
+									<img src="image/index/rank/make_rank.png" class="rank_title_pic fl"><span class="rank_title_text">网易原创歌曲榜</span>
+									<div>
+										<a href="#" class="rank_title_play"></a>
+										<a href="#" class="rank_title_file"></a>
+									</div>
+								</dt>
+							</dl>
+							<div style="clear:both"></div>
+						</div>
+					</div>
+				
+			</div>
+			<div class="main-content-right fr">
+				<div id="main_value_right_logic" class="logic">
+					<div class="before_logic">
+						<p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+						<a href="#" class="main_value_logic_btn">用户登录</a>
+					</div>
+					<div class="after_logic hide">
+						
+					</div>
+				</div>
+				<div class="mian-content-right-width">
+					<div class="main-songer">
+						<div class="title">
+							<span>入驻歌手</span>
+							<a href="#" class="fr">查看全部></a>
+						</div>
+						<div class="main-songer-value">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="image/index/songer_list/0.jpg">
+										<div>
+											<span class="little_title">张惠妹</span>
+											<span class="discri">民谣歌手</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="image/index/songer_list/1.jpg">
+										<div>
+											<span class="little_title">周杰伦</span>
+											<span class="discri">不是民谣歌手</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="image/index/songer_list/2.jpg">
+										<div>
+											<span class="little_title">张杰</span>
+											<span class="discri">也是民谣歌手</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="image/index/songer_list/3.jpg">
+										<div>
+											<span class="little_title">许嵩</span>
+											<span class="discri">还是民谣歌手</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="image/index/songer_list/4.jpg">
+										<div>
+											<span class="little_title">林鹏飞</span>
+											<span class="discri">歌手</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<a href="#" class="become_songer_btn"></a>
+						</div>
+					</div>	
+					<div class="main-DJ">
+						<div class="title">
+							<span>热门DJ</span>
+						</div>
+						<div class="dj-list">
+							<ul>
+								<li>
+									<img src="image/index/hot_DJ/0.jpg">
+									<a href="#">第一个</a>
+									<span>知名DJ</span>
+								</li>
+								<li>
+									<img src="image/index/hot_DJ/1.jpg">
+									<a href="#">斯蒂芬</a>
+									<span>不怎么知名</span>
+								</li>
+								<li>
+									<img src="image/index/hot_DJ/2.jpg">
+									<a href="#">走你</a>
+									<span>还不走</span>
+								</li>
+								<li>
+									<img src="image/index/hot_DJ/3.jpg">
+									<a href="#">不只是</a>
+									<span>草根</span>
+								</li>
+								<li>
+									<img src="image/index/hot_DJ/4.jpg">
+									<a href="#">走你</a>
+									<span>还不走</span>
+								</li>
+								<li>
+									<img src="image/index/hot_DJ/5.jpg">
+									<a href="#">走你</a>
+									<span>还不走</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="botton-bar">
+			<div class="botton-width">
+				<a href="#" class="longsonger-join">
+					<span class="longsonger-join-img fl"></span>
+					<span class="title fl">独立音乐人招募计划</span>
+					<span class="another fl">加入我们 即将与超过亿万乐迷互动</span>
+				</a>
+				<a href="#" class="music-join">
+					<span class="music-join-img fl"></span>
+					<span class="title fl">音乐专栏招募计划</span>
+					<span class="another fl">加入我们 与同道中人交流心得</span>
+				</a>
+				<a href="#g_top" class="about-our">回头部</a>
+			</div>
+		</div>
+
+		<!-- 音乐播放器 -->
+		<div class="music-box" id="music-box">
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="js/index/addLoadEvent.js"></script>
+	<script type="text/javascript" src="js/index/index_show_pic.js"></script>
+	<script type="text/javascript" src="js/index/rank_list.js"></script>
+	<script type="text/javascript" src="js/index/back_top.js"></script>
+	<script type="text/javascript" src="js/index/logic.js"></script>
+	<script type="text/javascript" src="js/index/get_music_address.js"></script>
+	<script type="text/javascript" src="js/index/index.js"></script>
+</body>
+</html>

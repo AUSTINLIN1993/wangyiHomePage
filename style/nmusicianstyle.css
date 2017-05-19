@@ -1,0 +1,573 @@
+html{
+	overflow: hidden;
+}
+*{
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.line-c{
+	text-align: center;
+}
+.top-bar{
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	background-color: rgba(36,36,36,1);
+}
+.top-bar .value{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	line-height: 60px;
+}
+.top-bar .value ul{
+	margin-left: 35px;
+}
+.top-bar .value li{
+	float: left;
+	width: 88px;
+	height: 60px;
+	margin-right: 62px;
+}
+.top-bar .value li a{
+	font-size: 16px;
+	color: #FFF;
+	font-weight: 3px 0;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	width: 88px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	border-top:solid 3px;
+	border-top-color: transparent;
+	border-bottom: solid 3px;
+	border-bottom-color: transparent;
+	display: inline-block;
+	color: #aaa;
+}
+.top-bar .value li a:hover{
+	color: #FFF;
+}
+.top-bar .value li .now{
+	color: #FFF;
+	border-bottom-color: #c62f2f;
+}
+.top-bar .value .r-value{
+	width: 230px;
+	height: 32px;
+	padding-top: 14px;
+	line-height: 32px;
+}
+.top-bar .value .r-value a{
+	color: #FFF;
+	text-decoration: underline;
+}
+.top-bar .value .r-value span{
+	color: #aaa;
+}
+.top-bar .value .r-value .join-btn{
+	width: 81px;
+	height: 23px;
+	border: 1px solid #8e413e;
+	color: #ea524e;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 23px;
+	text-align: center;
+	margin-right: 15px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+.top-bar .value .logo{
+	width: 200px;
+	height: 60px;
+	background: url(../image/songer/public.png) 0 0px no-repeat;
+	display: inline-block;
+}
+
+/*下方内容*/
+/*控制器*/
+#list-control{
+	position: fixed;
+	width: 18px;
+	height: 133px;
+	right: 16px;
+}
+#list-control li{
+	width: 15px;
+	height: 15px;
+	margin-bottom: 4px;
+	background: url(../image/songer/home.png) -285px -377px;
+}
+/*图片*/
+#context-value li{
+	position: relative;
+}
+
+#context-value .one .logo{
+	width: 100%;
+	height: 91%;
+	background: url(../image/songer/1_1.png) center no-repeat;
+	background-size: 76%;
+	position: relative;
+}
+#context-value .one .logo a{
+	left: 0;
+	right: 0;
+	width: 154px;
+	height: 49px;
+	color: #ea524e;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	line-height: 49px;
+	text-align: center;
+	border: 2px solid #ea524e;
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	top: 57%;
+}
+#context-value .one .box{
+	position: absolute;
+	height: 76px;
+	width: 100%;
+	bottom: 10%;
+}
+#context-value .one .btn{
+	height: 76px;
+	width: 810px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#context-value .one .btn a{
+	display: inline-block;
+	width: 110px;
+	height: 76px;
+	margin-right: 77px;
+	margin-left: 77px;
+}
+#context-value .one .btn .f{
+	background: url(../image/songer/home.png) 0 -529px;
+}
+#context-value .one .btn .f:hover{
+	background: url(../image/songer/home.png) 0 -615px;
+}
+#context-value .one .btn .s{
+	background: url(../image/songer/home.png) 0 -701px;
+}
+#context-value .one .btn .s:hover{
+	background: url(../image/songer/home.png) 0 -787px;
+}
+#context-value .one .btn .t{
+	background: url(../image/songer/home.png) 0 -443px;
+}
+#context-value .one .btn .t:hover{
+	background: url(../image/songer/home.png) 0 -873px;
+}
+/*标题下文字*/
+#context-value .on_con{
+	margin-top: 29px;
+	width: 100%;
+	text-align: center;
+	color: #888;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+/*第二部分*/
+#context-value .two .content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 1028px;
+	height: 500px;
+	margin: auto;
+}
+#context-value .titile{
+	height: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#context-value .titile h2{
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	color: #333;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 1em;
+}
+#context-value .titile .underline{
+	width: 100px;
+	border-top: #F83934 1px solid;
+	border-bottom: #F83934 1px solid;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#context-value .titile .wi{
+	color: #FFF;
+}
+/*第二部分*/
+/*字体*/
+#context-value .two .vt{
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+#context-value .two .vd{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	color: #999;
+}
+#context-value .two .content .text{
+	margin-top: 7%;
+	height: 368px;
+}
+#context-value .two .content .text .s,.f,.t{
+	height: 368px;
+	width: 312px;
+	display: inline-block;
+	background: url(../image/songer/home.png);
+}
+#context-value .two .content .text .s,.t{
+	margin-left: 40px;
+}
+#context-value .two .content .text .value{
+	width: 282px;
+	height: 180px;
+	margin-left: 15px;
+	margin-top: 80px;
+	position: absolute;
+}
+#context-value .two .content .text .value .pic{
+	width: 67px;
+	height: 67px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 24px;
+}
+#context-value .two .content .text .f .value .pic{
+	background: url(../image/songer/home.png) -122px -530px;
+}
+#context-value .two .content .text .s .value .pic{
+	background: url(../image/songer/home.png) -200px -444px;
+}
+#context-value .two .content .text .t .value .pic{
+	background: url(../image/songer/home.png) -122px -444px;
+}
+#context-value .two .content .text .value .ti{
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 14px;
+}
+#context-value .two .content .text .value .de{
+	width: 100%;
+	height: 48px;
+	line-height: 24px;
+	text-align: center;
+	display: inline-block;
+}
+/*第三部分*/
+/*三种字体*/
+#value-three{
+ 	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+#value-three .w1{
+	color: #aaa;
+	font-size: 18px;
+}
+#value-three .w2{
+	font-size: 16px;
+	color: #FFF;
+}
+#value-three .w3{
+ 	font-size: 16px;
+ 	line-height: 28px;
+ 	color: #ccc;
+}
+#value-three .titile{
+	padding-top: 90px;
+}
+#value-three .pic-box{
+	margin: 92px auto 46px;
+	height: 160px;
+	width: 1200px;
+	position: relative;
+}
+#value-three .pic-box a{
+	width: 35px;
+	height: 160px;
+	display: inline-block;
+	position: absolute;
+}
+#value-three .pic-box .l-btn{
+	left: -3px;
+	background: url(../image/songer/home.png) 0 -1549px;
+}
+#value-three .pic-box .l-btn:hover{
+	background: url(../image/songer/home.png) 0 -1719px;
+}
+#value-three .pic-box .r-btn{
+	right: -2px;
+	background: url(../image/songer/home.png) 0 -1209px;
+}
+#value-three .pic-box .r-btn:hover{
+	background: url(../image/songer/home.png) 0 -1379px;
+}
+#value-three .pic-box .box{
+	width: 1100px;
+	height: 160px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 50px;
+}
+#value-three .pic-box .pic-list{
+	height: 160px;
+	width: 1660px;
+	position: absolute;
+}
+#value-three .pic-box .pic-list li{
+	height: 160px;
+	width: 260px;
+	margin-right: 20px;
+}
+
+/*第四部分*/
+#context-value .four .content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 950px;
+	height: 550px;
+	margin: 4.75% auto;
+}
+#context-value .four .content .box{
+	width: 950px;
+	height: 360px;
+	margin-top: 80px;
+}
+#context-value .four .content .box span{
+	display: inline-block;
+	height: 315px;
+	width: 270px;
+	background-color: red;
+}
+#context-value .four .content .box .sf span{
+	background: url(../image/songer/rts.png);
+}
+#context-value .four .content .box .sf span:hover{
+	background: url(../image/songer/rts.png) 0 -325px;
+}
+#context-value .four .content .box .ss span{
+	background: url(../image/songer/rts.png) 0 -1300px;
+}
+#context-value .four .content .box .ss span:hover{
+	background: url(../image/songer/rts.png) 0 -1625px;
+}
+#context-value .four .content .box .st span{
+	background: url(../image/songer/rts.png) 0 -650px;
+}
+#context-value .four .content .box .st span:hover{
+	background: url(../image/songer/rts.png) 0 -975px;
+}
+#context-value .four .content .box .ss,.sf,.st{
+	height: 550px;
+}
+#context-value .four .content .box .ss{
+	margin: 0 68px;
+}
+#context-value .four .content .box p{
+	font-size: 16px;
+	text-align: center;
+	margin-top: 25px;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+/*第五部分*/
+#context-value .five .content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 832px;
+	height: 365px;
+	margin: 7% auto;
+}
+#context-value .five .titile h2{
+	font-size: 24px;
+}
+#context-value .five .text{
+	margin-top:  98px;
+	width: 834px;
+	height: 98px;
+	font-size: 24px;
+    line-height: 48px;
+    color: #eee;
+    font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+}
+#context-value .five .text p{
+	/*margin: 0 27px;*/
+	text-align: center;
+	height: 98px;
+	width: 755px;
+	display: inline-block;
+}
+#context-value .five .text span{
+	width: 27px;
+	height: 22px;
+	display: inline-block;
+	margin: 12px 0;
+}
+#context-value .five .text .left{
+	background: url(../image/songer/home.png) -248px -410px;
+}
+#context-value .five .text .right{
+	background: url(../image/songer/home.png) -248px -378px;
+}
+#context-value .five .box{
+	width: 100%;
+	height: 56px;
+	text-align: center;
+	margin-top: 78px;
+}
+#context-value .five .btn{
+	width: 233px;
+	height: 52px;
+	border: #EA524E 2px solid;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	display: inline-block;
+	text-align:center;
+	line-height: 52px;
+	color: #EA524E;
+	font-weight: normal;
+}
+
+/*第六部分*/
+#context-value .six .titile{
+	padding-top: 75px;
+}
+#context-value .six .w-one{
+	font-size: 18px;
+	margin: 24px 0 14px;
+	color: #999;
+}
+#context-value .six .w-two{
+	font-size: 24px;
+	color: #333;
+}
+#context-value .six .w-three{
+	font-size: 14px;
+	line-height: 24px;
+	color: #999;
+}
+
+#context-value .six .box{
+	width: 1100px;
+	height: 350px;
+	margin: 6.4% auto 0 auto;
+}
+#context-value .six .box div{
+	width: 280px;
+	height: 350px;
+	background-color: #FFF;
+	text-align: center;
+}
+#context-value .six .box .bet{
+	margin: 0 130px;
+}
+#context-value .six .box span{
+	display: inline-block;
+	width: 100px;
+	height: 115px;
+	margin: 32px 0 20px; 
+}
+#context-value .six .box .one{
+	background: url(../image/songer/home.png) -110px -1084px;
+}
+#context-value .six .box .two{
+	background: url(../image/songer/home.png) 0 -1084px;
+}
+#context-value .six .box .three{
+	background: url(../image/songer/home.png) 0 -959px;
+}
+
+#context-value .seven {
+	overflow: hidden;
+}
+#context-value .seven .titile{
+	margin-top: 80px;
+}
+#context-value .seven .list{
+	width: 1248px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#context-value .seven .list li{
+	position: relative;
+	display: inline-block;
+	height: 300px;
+	width: 208px;
+	background-color: #FFF；
+}
+#context-value .seven .list li p{
+	font-size: 16px;
+	color: #FFF;
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+#context-value .seven .list img:hover{
+	background: url(../image/songer/comb_hover.png) center no-repeat;
+}
+#context-value .seven .list .l1{
+	background: url(../image/songer/6001134464899963.jpg) center no-repeat;
+}
+#context-value .seven .list .l2{
+	background: url(../image/songer/1386484173966628.jpg) center no-repeat;
+}
+#context-value .seven .list .l3{
+	background: url(../image/songer/2896113627726548.jpg) center no-repeat;
+}
+#context-value .seven .list .l4{
+	background: url(../image/songer/2940094094601381.jpg) center no-repeat;
+}
+#context-value .seven .list .l5{
+	background: url(../image/songer/3420580741177890.jpg) center no-repeat;
+}
+#context-value .seven .list .l6{
+	background: url(../image/songer/5852700394918950.jpg) center no-repeat;
+}
+#context-value .seven .btn{
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 180px;
+	height: 52px;
+	border: #EA524E 2px solid;
+	font-family: "Microsoft Yahei", 'PingFang SC', 'hiragino sans gb', simsun,\5b8b\4f53, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	text-align:center;
+	line-height: 52px;
+	color: #EA524E;
+	font-weight: normal;
+}
